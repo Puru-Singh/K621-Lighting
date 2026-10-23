@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>K621Lighting</AssemblyName>
+    <RootNamespace>K621Lighting</RootNamespace>
+    <Version>1.0.1</Version>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <StartupObject>K621Lighting.Program</StartupObject>
+    <NoWarn>$(NoWarn);WPF0001</NoWarn>
+    <ApplicationIcon Condition="Exists('Assets\App.ico')">Assets\App.ico</ApplicationIcon>
+  </PropertyGroup>
+</Project>

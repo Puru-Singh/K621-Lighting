@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+research/vendor/
+research/captures/
+*.spec
+*.pcap
+*.pcapng
+.tools/
+**/bin/
+**/obj/
+artifacts/
+*.pfx
+*.cer
+

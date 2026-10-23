@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+ xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+ xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+ IgnorableNamespaces="uap rescap">
+  <Identity Name="K621Lighting.Desktop" Publisher="CN=K621Lighting.Local" Version="1.0.1.0" ProcessorArchitecture="x64" />
+  <Properties>
+    <DisplayName>K621 Lighting</DisplayName>
+    <PublisherDisplayName>K621 Lighting Project</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>A simple static color control for the original Redragon K621-RGB.</Description>
+  </Properties>
+  <Dependencies><TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26100.0" /></Dependencies>
+  <Resources><Resource Language="en-us" /></Resources>
+  <Applications>
+    <Application Id="App" Executable="K621Lighting.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="K621 Lighting" Description="Static RGB color control for the K621-RGB"
+        Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent">
+        <uap:DefaultTile><uap:ShowNameOnTiles><uap:ShowOn Tile="square150x150Logo" /></uap:ShowNameOnTiles></uap:DefaultTile>
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities><rescap:Capability Name="runFullTrust" /></Capabilities>
+</Package>

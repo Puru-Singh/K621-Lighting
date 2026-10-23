@@ -1,0 +1,134 @@
+{
+  "ready": false,
+  "status": "Keyboard detected. Lighting is locked until this K621's lighting-only commands are verified. See docs/CAPTURE.md.",
+  "interfaces": [
+    {
+      "descriptor": {
+        "vendor_id": 9610,
+        "product_id": 73,
+        "version": 256,
+        "interface": 1,
+        "manufacturer": "BY Tech",
+        "product": "Gaming Keyboard",
+        "usage_page": 1,
+        "usage": 128,
+        "input_length": 2,
+        "output_length": 0,
+        "feature_length": 0
+      },
+      "error": ""
+    },
+    {
+      "descriptor": {
+        "vendor_id": 9610,
+        "product_id": 73,
+        "version": 256,
+        "interface": 1,
+        "manufacturer": "BY Tech",
+        "product": "Gaming Keyboard",
+        "usage_page": 12,
+        "usage": 1,
+        "input_length": 3,
+        "output_length": 0,
+        "feature_length": 0
+      },
+      "error": ""
+    },
+    {
+      "descriptor": {
+        "vendor_id": 9610,
+        "product_id": 73,
+        "version": 256,
+        "interface": 1,
+        "manufacturer": "BY Tech",
+        "product": "Gaming Keyboard",
+        "usage_page": 1,
+        "usage": 6,
+        "input_length": 16,
+        "output_length": 0,
+        "feature_length": 0
+      },
+      "error": ""
+    },
+    {
+      "descriptor": {
+        "vendor_id": 9610,
+        "product_id": 73,
+        "version": 256,
+        "interface": 1,
+        "manufacturer": "BY Tech",
+        "product": "Gaming Keyboard",
+        "usage_page": 65280,
+        "usage": 1,
+        "input_length": 4,
+        "output_length": 0,
+        "feature_length": 0
+      },
+      "error": ""
+    },
+    {
+      "descriptor": {
+        "vendor_id": 9610,
+        "product_id": 73,
+        "version": 256,
+        "interface": 1,
+        "manufacturer": "BY Tech",
+        "product": "Gaming Keyboard",
+        "usage_page": 65280,
+        "usage": 1,
+        "input_length": 0,
+        "output_length": 0,
+        "feature_length": 6
+      },
+      "error": ""
+    },
+    {
+      "descriptor": {
+        "vendor_id": 9610,
+        "product_id": 73,
+        "version": 256,
+        "interface": 1,
+        "manufacturer": "BY Tech",
+        "product": "Gaming Keyboard",
+        "usage_page": 65280,
+        "usage": 1,
+        "input_length": 0,
+        "output_length": 0,
+        "feature_length": 1032
+      },
+      "error": ""
+    },
+    {
+      "descriptor": {
+        "vendor_id": 9610,
+        "product_id": 73,
+        "version": 256,
+        "interface": 1,
+        "manufacturer": "BY Tech",
+        "product": "Gaming Keyboard",
+        "usage_page": 1,
+        "usage": 2,
+        "input_length": 8,
+        "output_length": 0,
+        "feature_length": 0
+      },
+      "error": ""
+    },
+    {
+      "descriptor": {
+        "vendor_id": 9610,
+        "product_id": 73,
+        "version": 256,
+        "interface": 0,
+        "manufacturer": "BY Tech",
+        "product": "Gaming Keyboard",
+        "usage_page": 1,
+        "usage": 6,
+        "input_length": 9,
+        "output_length": 2,
+        "feature_length": 0
+      },
+      "error": ""
+    }
+  ]
+}
