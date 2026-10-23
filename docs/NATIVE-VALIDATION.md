@@ -1,5 +1,13 @@
 # Native Windows app validation
 
+## Version 1.0.2 update
+
+- Application, installer, and MSIX icons now use the same Segoe Fluent Icons
+  keyboard glyph (E765) as the device card, on a charcoal tile. The ICO includes
+  nine sizes from 16 to 256 pixels. Generated artwork was visually checked.
+- Rebuilt all packages and upgraded the installed app to 1.0.2. All 51 installed
+  checks pass; preferences were preserved. No keyboard writes were performed.
+
 ## Version 1.0.1 update
 
 - Last applied colors replaces presets. Up to 12 unique colors persist newest

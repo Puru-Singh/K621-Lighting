@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <AssemblyName>K621Lighting</AssemblyName>
     <RootNamespace>K621Lighting</RootNamespace>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <StartupObject>K621Lighting.Program</StartupObject>
     <NoWarn>$(NoWarn);WPF0001</NoWarn>

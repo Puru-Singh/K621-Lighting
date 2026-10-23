@@ -1,7 +1,7 @@
 # K621 Static Color
 
 **New: native Windows 11 app.** See [native/README.md](native/README.md) for
-K621 Lighting 1.0.1, its Fluent interface, installer, MSIX package, and winget
+K621 Lighting 1.0.2, its Fluent interface, installer, MSIX package, and winget
 publishing tools. The Python utility below remains as the original verified
 implementation and protocol reference.
 

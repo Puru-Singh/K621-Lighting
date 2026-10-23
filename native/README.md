@@ -1,6 +1,6 @@
 # K621 Lighting — native Windows 11 app
 
-K621 Lighting 1.0.1 is a C#/.NET 10 WPF desktop app using Microsoft's built-in
+K621 Lighting 1.0.2 is a C#/.NET 10 WPF desktop app using Microsoft's built-in
 Windows 11 Fluent theme. It has native light/dark/system themes, system accent
 colors, rounded cards, keyboard preview, RGB sliders, hex entry, color history,
 and a single Apply action. It is not an Electron app or a recolored Tkinter app.
@@ -11,7 +11,7 @@ upgrading from 1.0 imports the previously remembered color.
 
 ## Install and run
 
-Run `artifacts/release/K621Lighting-1.0.1-Setup-x64.exe`. Installation is per-user;
+Run `artifacts/release/K621Lighting-1.0.2-Setup-x64.exe`. Installation is per-user;
 it adds **K621 Lighting** to Start and Windows Settings → Apps → Installed apps.
 It supports normal uninstall and future upgrades. No Python, separate .NET
 installation, vendor utility, service, startup task, or custom USB driver is needed.
